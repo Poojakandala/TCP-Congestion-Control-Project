@@ -1,8 +1,10 @@
 # TCP-Congestion-Control-Project
-**Project Aim**
+**Project Aim:**
+
 The main aim of this project is to predict network congestion in TCP (Transmission Control Protocol) connections using machine learning techniques. By proactively identifying congestion before it severely impacts network performance, this approach allows for smarter and faster adaptations, improving overall reliability and efficiency of data transmission in computer networks.​​
 
-**Project Overview & Main Points**
+**Project Overview & Main Points:**
+
 Traditional TCP congestion control is reactive: Standard TCP algorithms (like Reno, Cubic) detect and respond to congestion only after packet loss or increased delays occur.
 
 Machine learning adds proactive prediction: This project uses machine learning to analyze real-time TCP metrics (e.g., window size, round trip time, packet loss) and predict congestion before it happens.​​
@@ -15,7 +17,8 @@ Interactive Dashboard: A Streamlit-based web dashboard lets users visualize data
 
 Outcome: This enables network devices or administrators to take preemptive action, potentially reducing packet loss, improving throughput, and minimizing latency.
 
-**Key Uses and Benefits**
+**Key Uses and Benefits:**
+
 Early Congestion Detection: Identifies potential for congestion before packet loss occurs, leading to proactive measures.​
 
 Increased Network Efficiency: Improves overall throughput and reduces delays in both simulated and real-world networks.​
